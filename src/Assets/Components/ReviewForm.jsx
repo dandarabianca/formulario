@@ -2,7 +2,7 @@ import React from 'react';
 import "./ReviewForm.css";
 
 
-export default function ReviewForm() {
+export default function ReviewForm({data}) {
   return (
     <div className='review-form'>
      <div className='form-control score-conteiner'>

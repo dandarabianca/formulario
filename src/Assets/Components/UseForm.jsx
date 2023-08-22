@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function UseForm (){
+export default function UseForm ({data}){
   return (
     <div>
      <div className='form-control'>
